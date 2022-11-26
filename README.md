@@ -17,10 +17,9 @@ COHORT analysis is useful in identifying loyal customers and makes it easier for
 # Business Problem
 ########################################
 
-""" The company wants to see the retention rates and volume rates based on transaction period. Also, they want to determine the loyal clients whose repeatedly made purchases. 
+The company wants to see the retention rates and volume rates based on transaction period. We will be helping them to determine the loyal clients whose repeatedly made purchases.
 
-We will be analyzing the average price metric and analyze if there are any differences in shopping patterns across time and cohorts.
-"""
+In addition, we will be analyzing the average price metric and analyze if there are any differences in shopping patterns across time and cohorts. 
 
 ########################################
 # Dataset Story
