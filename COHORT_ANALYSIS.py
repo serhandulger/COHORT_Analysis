@@ -18,7 +18,7 @@ import holoviews as hv
 from holoviews import opts
 hv.extension('bokeh')
 
-df = pd.read_csv('/Users/serhandulger/Documents/Miuul_DS_Path/CRM Analitiği/COHORT/online.csv')
+df = pd.read_csv('/Users/serhandulger/online.csv')
 
 def check_df(dataframe, head=5):
     print("##################### Shape #####################")
@@ -286,7 +286,7 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.width', 500)
 #pd.set_option('display.float_format', lambda x: '%.4f' % x)
 
-df = pd.read_csv('/Users/serhandulger/Documents/Miuul_DS_Path/CRM Analitiği/COHORT/online.csv')
+df = pd.read_csv('/Users/serhandulger/online.csv')
 df = df.iloc[:,1:9]
 
 import datetime as dt
